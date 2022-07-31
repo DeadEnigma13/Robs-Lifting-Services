@@ -143,5 +143,23 @@ img {
 }
 /* Hero */
 #hero {
-    background-image: url()
+    background-color: red;
+    min-height: 100vh;
+    position: relative;
+}
+/* Footer */
+#footer {
+    background-color: #101010;
+}
+#footer .footer-container {
+    min-height: 100px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+#footer .footer-container h1 {
+    color: white;
+}
+#footer .social-icons a {
+    color: #f7f71b;
 }
