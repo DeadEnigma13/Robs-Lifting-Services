@@ -141,3 +141,7 @@ img {
 #homepage .hamburger.active .bar::after {
     top: 0;
 }
+/* Hero */
+#hero {
+    background-image: url()
+}
