@@ -143,23 +143,51 @@ img {
 }
 /* Hero */
 #hero {
-    background-color: red;
+    background-image: url(../images/rls-hero-image.jpg);
     min-height: 100vh;
     position: relative;
+    background-position: center;
+    background-size: cover;
 }
+
 /* Footer */
 #footer {
-    background-color: #101010;
+    background-image: linear-gradient(70deg, black 25%, white 100%)
 }
 #footer .footer-container {
     min-height: 100px;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 #footer .footer-container h1 {
     color: white;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+#footer .footer-container p {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
 }
 #footer .social-icons a {
     color: #f7f71b;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#footer .social-icons a:hover {
+    color: white;
+}
+#footer .social-icons i {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+#footer .social-icons i:hover {
+    color: white;
 }
