@@ -170,8 +170,24 @@ img {
     border-radius: 5%;
 }
 /* Services */
-#services {
-    background-color: slategray;
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+.services-container {
+    margin: 0 -5px;
+}
+.services-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);    
+    padding: 16px;
+    text-align: center;
+    background-color: #f7f71b;
 }
 /* Footer */
 #footer {
