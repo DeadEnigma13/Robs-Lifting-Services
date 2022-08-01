@@ -191,34 +191,17 @@ img {
     border-radius: 25px;
 }
 /* Knowledge Section */
-#knowledge {
-    height: 100%;
-    width: 50%;
-    position: relative;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    min-height: 100vh;
-  }
-.knowledge-left {
-    left: 0;
-    background-color: #111;
-  }
-.knowledge-right {
-    right: 0;
-    background-color: red;
-  }
+#knowledge-img {
+    clear: both;
+    line-height: 4;
+    column-count: 4;
+}
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-.centered img {
-    width: 150px;
-    border-radius: 50%;
   }
 /* Footer */
 #footer {
