@@ -163,7 +163,7 @@ img {
 #hero .hero-container p {
     color: black;
     font-weight: 900;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.58);
     font-size: 1.3rem;
     padding: 20px;
     margin: 0 auto;
